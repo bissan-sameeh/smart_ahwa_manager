@@ -18,6 +18,13 @@ The `OrderRepository` (Concrete) class implements all methods defined in `IOrder
 so it does not have to implement any unnecessary methods.
 This follows the **Interface Segregation Principle**, ensuring each interface is small and specific to its purpose.
 
+![Result Screenshot](./Screenshot (1330).png)
+![Result Screenshot](./Screenshot (1327).png)
+
+
+
+
+
 ---
 
 ## 2️⃣ Dependency Inversion Principle (DIP)
@@ -32,6 +39,8 @@ This way:
 
 * The higher-level layer (Service) and the lower-level layer (Repository) **both depend on an abstraction, not on each other directly**.
 * This achieves the **Dependency Inversion Principle** with the use of **Dependency Injection**.
+![Result Screenshot](./Screenshot (1327).png)
+
 
 ---
 
@@ -41,6 +50,8 @@ Inside **models**, I designed each class to perform **only one responsibility**.
 Each class contains its own attributes with `getters` and `setters` to control them,
 and does not include any unrelated tasks.
 This follows the **Single Responsibility Principle**.
+![Result Screenshot](./Screenshot (1328).png)
+
 
 ---
 
