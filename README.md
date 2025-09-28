@@ -50,7 +50,7 @@ Inside **models**, I designed each class to perform **only one responsibility**.
 Each class contains its own attributes with `getters` and `setters` to control them,
 and does not include any unrelated tasks.
 This follows the **Single Responsibility Principle**.
-![Result Screenshot](./Screenshot%20(1328).png)
+![Result Screenshot](./Screenshot%20(1331).png)
 
 
 ---
@@ -72,6 +72,8 @@ In `OrderServiceImp`, I implemented a function to calculate the top-selling drin
    drinks.sort((a, b) => b.value.compareTo(a.value));
    ```
 6. Took the first element in the list as the top-selling drink.
+![Result Screenshot](./Screenshot%20(1331).png)
+
 
 ---
 
