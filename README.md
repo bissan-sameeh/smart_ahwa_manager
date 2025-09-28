@@ -18,7 +18,7 @@ The `OrderRepository` (Concrete) class implements all methods defined in `IOrder
 so it does not have to implement any unnecessary methods.
 This follows the **Interface Segregation Principle**, ensuring each interface is small and specific to its purpose.
 
-![Result Screenshot](./Screenshot (1330).png)
+![Result Screenshot](Screenshot (1330).png)
 ![Result Screenshot](./Screenshot (1327).png)
 
 
