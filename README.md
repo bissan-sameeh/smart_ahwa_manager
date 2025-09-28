@@ -38,7 +38,7 @@ This way:
 
 * The higher-level layer (Service) and the lower-level layer (Repository) **both depend on an abstraction, not on each other directly**.
 * This achieves the **Dependency Inversion Principle** with the use of **Dependency Injection**.
-![Result Screenshot](./Screenshot%20(1327).png)
+![DI screenshoot](./Screenshot%20(1327).png)
 
 
 ---
