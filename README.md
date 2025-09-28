@@ -17,9 +17,8 @@ In the **repository** for `Order`, I placed all functions related only to orders
 The `OrderRepository` (Concrete) class implements all methods defined in `IOrderRepository` (Abstract),
 so it does not have to implement any unnecessary methods.
 This follows the **Interface Segregation Principle**, ensuring each interface is small and specific to its purpose.
-
+![Result Screenshot](./Screenshot%20(1329).png)
 ![Result Screenshot](./Screenshot%20(1330).png)
-![Result Screenshot](./Screenshot%20(1327).png)
 
 
 
@@ -72,7 +71,7 @@ In `OrderServiceImp`, I implemented a function to calculate the top-selling drin
    drinks.sort((a, b) => b.value.compareTo(a.value));
    ```
 6. Took the first element in the list as the top-selling drink.
-![Result Screenshot](./Screenshot%20(1331).png)
+![Result Screenshot](./Screenshot%20(1327).png)
 
 
 ---
